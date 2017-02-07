@@ -1,0 +1,14 @@
+root {
+  --color-primary: #99cccd;
+  --color-secondary: #00aaa1;
+  --color-accent: #462067;
+  --color-neutral-beige: #fcf4da ;
+  --color-whatever: #ffb95f;
+
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
