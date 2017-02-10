@@ -12,3 +12,59 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-family: var(--font-seconday);
+  color: var(--color-primary);
+  font-size: 3em;
+}
+
+h2 {
+  font-family: var(--font-seconday);
+  color: var(--color-secondary);
+}
+
+h3 {
+  font-family: var(--font-seconday);
+  color: var(--color-whatever);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+}
+
+h5 {
+  font-family: var(--font-primary);s
+}
+
+h6 {
+  font-family: var(--font-primary);
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+li, dl{
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+blockquote {
+  color: var(--color-accent);
+}
+
+cite {
+  color: var(--color-primary);
+}
+
+q {
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-primary);
+}
