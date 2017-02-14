@@ -1,9 +1,7 @@
 ---
 name: "Loyal Rescue"
-fontUrl:
-"http://fonts.googleapis.com/css?family=Open+Sans:400,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i|Raleway:400,700,900"
 
-"https://fonts.googleapis.com/css?family=Raleway:400,900"
 fonts:
   primary: |
     The primary typeface is a clean and easy to read sans-serif.
