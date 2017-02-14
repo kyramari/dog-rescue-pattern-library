@@ -7,7 +7,7 @@ fonts:
   primary: |
     The primary typeface is a clean and easy to read sans-serif.
 
-    Use the primary typeface for body copy, captions and should realy be anything by default.
+    Use the primary typeface for body copy, captions and should really be anything by default.
   secondary:
     The secondary typeface is a little nicer and less plain san-serif.
 
