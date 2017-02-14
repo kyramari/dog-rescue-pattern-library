@@ -2,7 +2,7 @@
   --color-primary: #99cccd;
   --color-secondary: #00aaa1;
   --color-accent: #462067;
-  --color-neutral-beige: #fcf4da ;
+  --color-neutral-beige: #fcf4da;
   --color-whatever: #ffb95f;
 
   --font-primary: "Open Sans", sans-serif;
@@ -35,20 +35,19 @@ h4 {
 }
 
 h5 {
-  font-family: var(--font-primary);s
+  font-family: var(--font-primary);
 }
 
 h6 {
   font-family: var(--font-primary);
 }
 
-
 a {
   text-decoration: none;
   color: var(--color-accent);
 }
 
-li, dl{
+li, dl {
   color: var(--color-secondary);
   font-weight: bold;
 }
