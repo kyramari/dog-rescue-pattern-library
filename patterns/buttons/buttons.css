@@ -29,7 +29,7 @@
   color: var(--color-accent);
   background-color: #fff;
   border: none;
-  }
+}
 
 .btn-white:hover {
   background-color: var(--color-secondary);

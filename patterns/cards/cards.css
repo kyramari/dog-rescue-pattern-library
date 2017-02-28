@@ -19,7 +19,7 @@
     display: none;
   }
 
-  .pets:hover {
+  .pet-pic:hover {
     opacity: .5;
   }
 
@@ -34,7 +34,5 @@
   .pets:hover .pet-name {
     display: block;
   }
-
-
 
 }
