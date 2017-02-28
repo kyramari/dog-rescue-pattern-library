@@ -1,0 +1,47 @@
+.btn-round {
+  background-color: var(--color-primary);
+  width: 8em;
+  height: 8em;
+  line-height: 1.5em;
+  border-radius: 50%;
+  text-align: center;
+  border: solid 8px var(--color-secondary);
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.btn-round:hover {
+  border-color: var(--color-secondary);
+}
+
+.btn-normal {
+  border: none;
+  background-color: var(--color-primary);
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+}
+
+.btn-white {
+  color: var(--color-accent);
+  background-color: #fff;
+  border: none;
+  }
+
+.btn-white:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.btn-orange {
+  background-color: var(--color-whatever);
+  color: #fff;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: var(--color-primary);
+}

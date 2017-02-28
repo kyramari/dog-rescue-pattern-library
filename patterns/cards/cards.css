@@ -1,0 +1,40 @@
+.pets {
+  position: relative;
+}
+
+.card-content {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+}
+
+.other-content {
+  display: none;
+  color: var(--color-accent);
+}
+
+@media only screen and (min-width: 32em) {
+
+  .pet-name {
+    display: none;
+  }
+
+  .pets:hover {
+    opacity: .5;
+  }
+
+  .card-content {
+    top: 75%;
+  }
+
+  .pets:hover .other-content {
+    display: block;
+  }
+
+  .pets:hover .pet-name {
+    display: block;
+  }
+
+
+
+}

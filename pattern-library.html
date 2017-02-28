@@ -20,6 +20,9 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
         </nav>
       </div>
@@ -361,6 +364,149 @@
     &lt;p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p>
   &lt;/div>
 &lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="icons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Icons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="icons-icons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/icons/1-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="buttons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Buttons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>There are 2 kinds of buttons. They both use the primary color to stand out.</p>
+<ul>
+<li><p>The round buttons are for Adopt Now and Join Us. Or any VERY important element on the page.</p>
+</li>
+<li><p>The Normal Button ones are for anything inside text and one a white/light background.</p>
+</li>
+<li><p>The White Button is for dark backgrounds.</p>
+</li>
+<li><p>The Orange Button is for extra things; Side things.</p>
+</li>
+</ul>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="buttons-buttons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/buttons/buttons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;h1&gt;
+  &lt;/h1>
+&lt;a class="btn btn-round" href="#">&lt;span>Circle Button&lt;/span>&lt;/a>
+&lt;a class="btn btn-normal" href="#">Normal Button&lt;/a>
+&lt;a class="btn btn-white" href="#">White Button&lt;/a>
+&lt;a class="btn btn-orange" href="#">Orange Button&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="cards">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Cards</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
+          </ol>
+        </nav>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="cards-basic-card">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Basic card</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/basic-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="pets card"&gt;
+  &lt;img class="pet-pic img-flex" src="images/placeholder-1by1.svg" alt="">
+  &lt;div class="card-content">
+    &lt;h3 class="pet-name">Name&lt;/h3>
+    &lt;p class="other-content">Kind of Animal&lt;/p>
+    &lt;p class="other-content">Sex&lt;/p>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="cards-icon-card">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Icon card</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>
 </pre></code>
             </div>
           </div>
