@@ -19,7 +19,7 @@
     display: none;
   }
 
-  .pet-pic:hover {
+  .pets:hover .pet-pic {
     opacity: .5;
   }
 

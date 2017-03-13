@@ -21,8 +21,10 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banner">Banner</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#forms">Forms</a></li>
           </ul>
         </nav>
       </div>
@@ -405,6 +407,46 @@
 
 </section>
 
+        <section class="pattern" id="banner">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Banner</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>There is only going to be one banner on this site.</p>
+<ul>
+<li>This banner will be used on the main page as a way to draw people attention in. Having the Adopt Now button on it will help get more pets adopted.</li>
+</ul>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="banner-banner">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/banner/banner.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="banner"&gt;
+  &lt;img class="img-flex" src="images/dog.jpg" alt="">
+  &lt;div>
+    &lt;h1 class="banner-content">We Need Your Help&lt;/h1>
+    &lt;a class="btn btn-round" href="#">&lt;span>Circle Button&lt;/span>&lt;/a>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons">
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
@@ -455,24 +497,23 @@
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
       <h2 class="pattern-name peta push-1-8">Cards</h2>
-        <nav class="pattern-nav milli">
-          <ol class="list-group-inline pad-t-1-4 push-0">
-              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
-              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
-          </ol>
-        </nav>
     </div>
 
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>These will be used to display the pets for adoption. You can click on these for more information about that pet. </p>
+<ul>
+<li><p>When the site is being displayed on a phone or touch screen, the card will be the image of the animal with just the name in the bottom left corner.</p>
+</li>
+<li><p>When the site is on a larger sized screen, the card will show as just the image. When you hover over it will fade out 50% and the name, kind of animal, and sex of the animal with show.</p>
+</li>
+</ul>
+</div>
+      </div>
   </div>
 
   
 
     <div class="pattern-details push" id="cards-basic-card">
-        <div class="push">
-          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
-            <h3 class="pattern-name tera push-1-8">Basic card</h3>
-          </div>
-        </div>
 
       <div class="pattern-examples">
         <div class="gutter">
@@ -493,20 +534,118 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details push" id="cards-icon-card">
-        <div class="push">
-          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
-            <h3 class="pattern-name tera push-1-8">Icon card</h3>
-          </div>
-        </div>
+
+</section>
+
+        <section class="pattern" id="forms">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Forms</h2>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="forms-forms">
 
       <div class="pattern-examples">
         <div class="gutter">
-          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+          <iframe class="push" src="patterns/forms/forms.html" onload="resizeIframe(this)"></iframe>
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
+              <code><pre>&lt;h2 class="push-0"&gt;Form Title&lt;/h2>
+&lt;form class="max-length island" method="post" novalidate="">
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;h4>Section Title&lt;/h4>
+  &lt;div class="push-1-2">
+    &lt;label for="name">Name&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a name&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-1">
+    &lt;label for="email">Email&lt;/label>
+    &lt;input type="email" id="email" required aria-describedby="email-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="url">Website &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+    &lt;input type="url" id="url">
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="date">Date Picker&lt;/label>
+    &lt;input type="date" id="date" required aria-describedby="date-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="date-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="breed">Breed&lt;/label>
+    &lt;select id="breed">
+      &lt;option>Poodle&lt;/option>
+      &lt;option>Beagle&lt;/option>
+      &lt;option>German Shepard&lt;/option>
+      &lt;option>Sheep Dog&lt;/option>
+      &lt;option>Doodle&lt;/option>
+    &lt;/select>
+  &lt;/div>
+
+  &lt;fieldset>
+    &lt;legend>Radio Buttons&lt;/legend>
+
+    &lt;input type="radio" id="green" name="fav-color">
+    &lt;label for="green">One&lt;/label>
+
+    &lt;input type="radio" id="light-green" name="fav-color">
+    &lt;label for="light-green">Two&lt;/label>
+
+    &lt;input type="radio" id="dark-green" name="fav-color">
+    &lt;label for="dark-green">Three&lt;/label>
+
+    &lt;input type="radio" id="dark-green" name="fav-color">
+    &lt;label for="dark-green">Four&lt;/label>
+  &lt;/fieldset>
+
+  &lt;div class="push-1-2">
+    &lt;label for="text">Notes to Loyal Rescue &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+    &lt;textarea id="message" type="text" class="notes" required aria-describedby="text-error">
+      &lt;p class="error-message milli island-1-4 push-0" id="text-error">
+        &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">Please provide details about your life style.&lt;/span>
+      &lt;/p>
+    &lt;/textarea>&lt;/div>
+
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+    &lt;label for="agree">Agree&lt;a> to terms and conditions&lt;/a>&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please agree that you&apos;re totally awesome&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn btn-normal" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
 </pre></code>
             </div>
           </div>

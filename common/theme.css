@@ -14,18 +14,18 @@ html {
 }
 
 h1 {
-  font-family: var(--font-seconday);
-  color: var(--color-primary);
-  font-size: 2em;
+  font-family: var(--font-secondary);
+  color: #fff;
+  font-size: 3.5em;
 }
 
 h2 {
-  font-family: var(--font-seconday);
+  font-family: var(--font-secondary);
   color: var(--color-secondary);
 }
 
 h3 {
-  font-family: var(--font-seconday);
+  font-family: var(--font-secondary);
   color: var(--color-whatever);
 }
 
@@ -36,14 +36,16 @@ h4 {
 
 h5 {
   font-family: var(--font-primary);
+  color: var(--color-secondary);
 }
 
 h6 {
   font-family: var(--font-primary);
+  color: var(--color-secondary);
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-accent);
 }
 

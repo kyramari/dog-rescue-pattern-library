@@ -1,8 +1,8 @@
 .btn-round {
   background-color: var(--color-primary);
-  width: 8em;
-  height: 8em;
-  line-height: 1.5em;
+  width: 12em;
+  height: 12em;
+  line-height: 2.5em;
   border-radius: 50%;
   text-align: center;
   border: solid 8px var(--color-secondary);
@@ -10,6 +10,16 @@
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+span {
+  font-size: 2em;
+  font-weight: light;
+  font-family: var(--font-secondary);
+}
+
+.circle-btn {
+  font-size: 3em;
 }
 
 .btn-round:hover {
