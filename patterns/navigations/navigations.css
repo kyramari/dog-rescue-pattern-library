@@ -1,0 +1,16 @@
+.form-nav-content a {
+  color: var(--color-whatever);
+  text-decoration: none;
+}
+
+.form-nav-content a:hover {
+  color: var(--color-primary);
+}
+
+.form-nav-content li {
+  text-align: center;
+}
+
+.form-nav-content .current-about-you {
+  color: var(--color-primary);
+}

@@ -1,0 +1,52 @@
+.main-nav {
+  background-color: var(--color-secondary);
+}
+
+.masthead {
+  background-color: var(--color-secondary);
+}
+
+.main-nav-content .nav-a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.main-nav-content .nav-a:hover {
+  color: var(--color-accent);
+}
+
+.main-nav-content .nav-li {
+  text-align: center;
+}
+
+
+.footer {
+  background-color: var(--color-secondary);
+}
+
+.footer .footer-a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .footer-a:hover {
+  color: var(--color-primary);
+}
+
+.footer-icons {
+  text-align: right;
+}
+
+.title {
+  font-size: 1em;
+}
+
+.title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav-content .current-dogs,
+.main-nav-content .current-form {
+  color: var(--color-accent);
+}

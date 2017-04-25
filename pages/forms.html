@@ -2,19 +2,58 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Forms</title>
+  <title>Home</title>
+  <link href="../common/modules.css" rel="stylesheet">
+  <link href="../common/grid.css" rel="stylesheet">
+  <link href="../common/type.css" rel="stylesheet">
+  <link href="../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700,900" rel="stylesheet">
+  <link href="../patterns/buttons/buttons.css" rel="stylesheet">
+  <link href="../patterns/banner/banner.css" rel="stylesheet">
+  <link href="../patterns/cards/cards.css" rel="stylesheet">
+  <link href="../patterns/header-footer/header-footer.css" rel="stylesheet">
+  <link href="../patterns/navigations/navigations.css" rel="stylesheet">
+  <link href="../patterns/forms/forms.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="../../common/modules.css" rel="stylesheet">
-  <link href="../../common/grid.css" rel="stylesheet">
-  <link href="../../common/type.css" rel="stylesheet">
-  <link href="../../common/theme.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-  <link href="forms.css" rel="stylesheet">
-  <link href="../buttons/buttons.css" rel="stylesheet">
 </head>
 <body>
 
-  <h2 class="push-0 text-center">Form Title</h2>
+  <div class="push-none">
+    <div class="masthead pad-t push-none text-center">
+      <div class="absolute pin-tr island">
+        <i class="icon i-32 search-icon">
+          <svg><use xlink:href="../images/icons.svg#search-icon" /></svg>
+        </i>
+      </div>
+      <div class="inline">
+        <i class="icon i-64 push-r-1-4">
+          <img class="img-flex" src="../images/logo-64.svg" alt="">
+        </i>
+        <h1 class="title push-none"><a href="index.html">Loyal Rescue</a></h1>
+      </div>
+    </div>
+    <nav class="main-nav text-center">
+      <ul class="grid main-nav-content island text-center list-group">
+        <li class="nav-li unit xs-1 s-1-2 m-1-4 push-1-2"><a class="nav-a" href="available-dogs.html">For Adoption</a></li>
+        <li class="nav-li unit xs-1 s-1-2 m-1-4 push-1-2"><a class="nav-a current-form" href="forms.html">Application</a></li>
+        <li class="nav-li unit xs-1 s-1-2 m-1-4 push-1-2"><a class="nav-a" href="">Happy Tails</a></li>
+        <li class="nav-li unit xs-1 s-1-2 m-1-4 push-1-2"><a class="nav-a" href="">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="push-1-2 pad-t-1-2">
+    <nav class="form-nav">
+      <ul class="grid form-nav-content island text-center list-group">
+        <li class="unit xs-1 s-1-2 m-1-4 push-1-2"><a class="current-about-you" href="">About You</a></li>
+        <li class="unit xs-1 s-1-2 m-1-4 push-1-2"><a href="">Your Lifestyle</a></li>
+        <li class="unit xs-1 s-1-2 m-1-4 push-1-2"><a href="">Pet Info</a></li>
+        <li class="unit xs-1 s-1-2 m-1-4 push-1-2"><a href="">Other</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <h2 class="push-0 text-center">About You</h2>
   <form class="max-length island" method="post" novalidate>
     <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
       <h3 class="push-0">
@@ -102,9 +141,39 @@
     </div>
 
     <div class="pad-t-1-2">
+      <a class="btn btn-orange" href="#">Next Form</a>
       <button class="btn btn-normal" type="submit">Send</button>
     </div>
+
   </form>
+
+  <div class="footer island-2">
+    <div class="footer-list">
+      <div class="grid push-none">
+        <div class="unit s-1 m-1-3">
+          <div class="push-1-2"><a class="footer-a">For Adoption</a></div>
+          <div class="push-1-2"><a class="footer-a">Application</a></div>
+          <div class="push-1-2"><a class="footer-a">Happy Tails</a></div>
+        </div>
+        <div class="unit s-1 m-1-3">
+          <div class="push-1-2"><a class="footer-a">Contact Us</a></div>
+          <div class="push-1-2"><a class="footer-a">Our Mission</a></div>
+          <div class="push-1-2"><a class="footer-a">Join Us</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-icons">
+      <i class="icon i-32 push-r-1-2">
+        <svg><use xlink:href="../../images/icons.svg#facebook-icon" /></svg>
+      </i>
+      <i class="icon i-32 push-r-1-2">
+        <svg><use xlink:href="../../images/icons.svg#twitter-icon" /></svg>
+      </i>
+      <i class="icon i-32 push-r-1-2">
+        <svg><use xlink:href="../../images/icons.svg#instagram-icon" /></svg>
+      </i>
+    </div>
+  </div>
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
 </html>

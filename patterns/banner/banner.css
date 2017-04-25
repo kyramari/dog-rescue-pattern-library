@@ -1,15 +1,47 @@
 .banner {
   position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  background-image: url("../../images/dog.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.banner-btn-words {
+  line-height: 1em;
 }
 
 .banner-content {
+  font-size: 2em;
   position: absolute;
   top: 15%;
-  left: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.btn {
+.banner .btn {
+  display: none;
   position: absolute;
   top: 35%;
-  left: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 32em) {
+
+  .banner-content {
+    font-size: 2em;
+  }
+
+  .banner .btn {
+    display: flex;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-content {
+    font-size: 3em;
+  }
 }

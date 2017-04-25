@@ -3,17 +3,23 @@
 }
 
 .card-content {
-  position: absolute;
-  top: 90%;
-  left: 5%;
+  line-height: .25;
+  padding-left: .5em;
 }
 
 .other-content {
-  display: none;
+  color: var(--color-accent);
+}
+
+.pet-name {
   color: var(--color-accent);
 }
 
 @media only screen and (min-width: 32em) {
+
+  .other-content {
+    display: none;
+  }
 
   .pet-name {
     display: none;
@@ -24,7 +30,9 @@
   }
 
   .card-content {
-    top: 75%;
+    left: 5%;
+    bottom: 5%;
+    position: absolute;
   }
 
   .pets:hover .other-content {

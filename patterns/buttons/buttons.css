@@ -12,9 +12,9 @@
   align-items: center;
 }
 
-span {
+.banner-btn-words {
   font-size: 2em;
-  font-weight: light;
+  font-weight: lighter;
   font-family: var(--font-secondary);
 }
 

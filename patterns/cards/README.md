@@ -1,4 +1,4 @@
-These will be used to display the pets for adoption. You can click on these for more information about that pet. 
+These will be used to display the pets for adoption. You can click on these for more information about that pet.
 
 - When the site is being displayed on a phone or touch screen, the card will be the image of the animal with just the name in the bottom left corner.
 
